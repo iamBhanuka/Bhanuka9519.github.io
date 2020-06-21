@@ -114,4 +114,39 @@ button:active {
   display: flex;
   margin: -7% auto 20px auto;
   position: relative;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.about-container img {
+  height: 250px;
+}
+.about-text {
+  width: 550px;
+}
+.about-text p:nth-child(1) {
+  color: #403e3e;
+  font-family: myriad pro;
+  font-weight: bold;
+  font-size: 23px;
+  line-height: 0p;
+}
+.about-text p:nth-child(2) {
+  color: #3e3d3d;
+  font-family: myriad pro;
+  font-weight: bold;
+  font-size: 5px;
+}
+.about-text p:nth-child(3) {
+  color: #7e7d7d;
+  font-family: calibri;
+  font-size: 16px;
+}
+.about-text button {
+  width: 120px;
+  height: 40px;
+  color: #ffffff;
+  outline: none;
+  border: none;
+  font-family: calibri;
+  background-color: #262525;
 }

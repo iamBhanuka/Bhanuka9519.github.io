@@ -115,12 +115,14 @@ button:active {
   height: 660px;
   position: absolute;
   bottom: 50px;
+  top: 5px;
   left: 70%;
   transform: translateX(-90%);
 }
 .about-container {
   width: 80%;
   height: 330px;
+  top: 70px;
   background-color: #ffffff;
   border-radius: 20px;
   box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
@@ -426,6 +428,7 @@ border-radius: 50%;
     margin: 5px;
   }
   .about-container{
+    top: 20px;
     width: 90%;
     border-radius: 10px;
   }
@@ -615,7 +618,7 @@ border-radius: 50%;
     display: flex !important;
   }
   .about-container{
-    top: 0px;
+    top: 20px;
     flex-direction: column;
     width: 90%;
     height: auto;

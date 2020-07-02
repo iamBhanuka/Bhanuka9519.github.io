@@ -67,6 +67,13 @@ nav ul li a {
   font-size: 60px;
 }
 .text-container p:nth-child(3) {
+  font-family: calibri;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: #1d1d1d;
+  font-size: 60px;
+}
+.text-container p:nth-child(4) {
   font-family: myriad pro regular;
   color: #403e3e;
   font-size: 30px;
@@ -449,6 +456,11 @@ border-radius: 50%;
     display: block;
   }
   .text-conatiner p:nth-child(2){
+    line-height: 40px;
+    margin: 0px;
+    padding: 0px;
+  }
+  .text-conatiner p:nth-child(3){
     line-height: 40px;
     margin: 0px;
     padding: 0px;

@@ -2,6 +2,8 @@
 
 <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bhanuka</title>
     <link rel="stylesheet" href="style.css" />
     <script src="https://kit.fontawesome.com/c8e4d183c2.js"></script>
@@ -20,9 +22,10 @@
                 <li><a href="#">Contact Us</a></li>
                 <li><a href="#">Team</a></li>
             </ul>
+            <div class="toggle"></div>
         </nav>
         <div>
-            <div class="text-conatiner">
+            <div class="text-container">
                 <p>Hello</p>
                 <p>I'M Bhanuka</p>
                 <p>I am Developer Designer Mobile Photographer <br>& Content Creater</p>
@@ -109,6 +112,16 @@
         <a href="#"><i class="fab fa-linkedin"></i></a>
         <a href="#"><i class="fab fa-instagram"></i></a>
     </div>
+    <script type="text/javascript" src="jquary.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function(){
+        $('.toggle').click(function(){
+            $('.toggle').toggleClass('active')
+            $('nav').toggleClass('active')
+        })
+    })
+    
+    </script>
 
 </body>
 
